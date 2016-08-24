@@ -28,7 +28,7 @@ public class FileHandler {
 
 		fileChooser = new FileChooser();
 		fileChooser.setInitialDirectory(new File(System.getProperty("user.home")));
-		FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
+		FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Txt files (*.txt)", "*.txt");
 		fileChooser.getExtensionFilters().add(extFilter);
 
 	}
